@@ -13,11 +13,14 @@ export class EmpleadoComponent {
   apellido = "Diaz";
   private edad = 20;
   //empresa = "SkilfulDev";
-
+  habilitacionCuadro = true;
+  private usuarioRegistrado = true;
   getEdad(){
     return this.edad
   }
-
+  getRegistroUsuario(){
+    return this.usuarioRegistrado
+  }
   constructor() { }
 
 }
