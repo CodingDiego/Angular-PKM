@@ -9,5 +9,15 @@ import { CommonModule } from '@angular/common';
   styleUrl: './empleado.component.css'
 })
 export class EmpleadoComponent {
+  nombre = "Juan";
+  apellido = "Diaz";
+  private edad = 20;
+  empresa = "SkilfulDev";
+
+  getEdad(){
+    return this.edad
+  }
+
+  constructor() { }
 
 }
