@@ -12,7 +12,7 @@ export class EmpleadoComponent {
   nombre = "Juan";
   apellido = "Diaz";
   private edad = 20;
-  empresa = "SkilfulDev";
+  //empresa = "SkilfulDev";
 
   getEdad(){
     return this.edad
